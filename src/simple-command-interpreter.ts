@@ -1,6 +1,5 @@
-// Import here Polyfills if needed. Recommended core-js (npm i -D core-js)
-  // import "core-js/fn/array.find"
-  // ...
-export default class DummyClass {
+import 'core-js/features/array/find';
+import 'core-js/features/array/find-index';
+import 'core-js/features/object/values';
 
-}
+export * from './interpreter';
